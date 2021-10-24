@@ -1,0 +1,144 @@
+html {
+  background-color: beige;
+}
+
+* {
+  margin: 0;
+}
+
+.container > div {
+  padding: 0px 148px;
+  margin: 0;
+}
+
+.container {
+  background-color: bisque;
+  width: 1152px;
+  height: 2041px;
+  margin: 30px auto;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  padding: 0px 25px;
+  height: 82px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: cornflowerblue;
+}
+
+.about {
+  height: 513px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: darkgoldenrod;
+}
+
+.posts {
+  background-color: #edf7fa;
+}
+
+.posts-intro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 69px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: darkgreen;
+}
+
+.post-grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 327px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 20px;
+          column-gap: 20px;
+}
+
+.post {
+  border: 1px solid;
+  height: 295px;
+}
+
+.featured {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.featured-intro {
+  margin: 20px 0;
+}
+
+.featured-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 20px;
+          column-gap: 20px;
+  margin-bottom: 46px;
+}
+
+.footer {
+  margin-top: 83px;
+  height: 182px;
+}
+
+.social-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.copyright-text {
+  text-align: center;
+}
+
+.custom-image {
+  width: 243px;
+  height: 243px;
+  border-radius: 50%;
+}
+
+.rounded-corners {
+  width: 246px;
+  height: 180px;
+}
+
+.menu-link {
+  margin-left: 25px;
+}
+/*# sourceMappingURL=index.css.map */
