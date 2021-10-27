@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
 @mixin setFontStyle($size, $weight, $height) {
   font-size: $size * 1px;
   font-style: normal;
@@ -6,6 +7,10 @@
   line-height: $height * 1px;
   letter-spacing: 0px;
 }
+
+$white: #fff;
+
+
 
 html {
   background-color: #b1b1b1;
@@ -23,11 +28,11 @@ body {
 }
 
 main {
-  width: 1152px;
-  margin: 30px auto;
-  background-color: #fff;
   display: grid;
   grid-template-rows: 82px 513px 396px 787px 182px;
+  width: 1152px;
+  margin: 30px auto;
+  background-color: $white;
 }
 
 main > div {
@@ -70,7 +75,7 @@ main > div {
     border: none;
     outline: none;
     padding: 8px 12px;
-    color: #fff;
+    color: $white;
   }
 
   .about__image {
@@ -81,7 +86,7 @@ main > div {
 }
 
 .posts {
-  background-color: #edf7fa;
+  background-color: #EDF7FA;
 
   .posts__intro {
     display: flex;
@@ -107,7 +112,7 @@ main > div {
 
   .post__item {
     height: 295px;
-    background: #ffffff;
+    background: $white;
     box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
     border-radius: 4px;
     display: flex;
@@ -161,7 +166,7 @@ main > div {
       @include setFontStyle(18, 900, 60);
       background: #142850;
       border-radius: 16px;
-      color: #fff;
+      color: $white;
       padding: 0px 9px;
       margin-right: 10px;
     }

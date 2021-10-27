@@ -16,13 +16,13 @@ body {
 }
 
 main {
-  width: 1152px;
-  margin: 30px auto;
-  background-color: #fff;
   display: -ms-grid;
   display: grid;
   -ms-grid-rows: 82px 513px 396px 787px 182px;
       grid-template-rows: 82px 513px 396px 787px 182px;
+  width: 1152px;
+  margin: 30px auto;
+  background-color: #fff;
 }
 
 main > div {
@@ -104,7 +104,7 @@ main > div {
 }
 
 .posts {
-  background-color: #edf7fa;
+  background-color: #EDF7FA;
 }
 
 .posts .posts__intro {
@@ -150,7 +150,7 @@ main > div {
 
 .posts .post__item {
   height: 295px;
-  background: #ffffff;
+  background: #fff;
   -webkit-box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
           box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
   border-radius: 4px;
