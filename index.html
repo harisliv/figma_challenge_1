@@ -12,56 +12,54 @@
     <title>Figma Challenge 1</title>
   </head>
   <body>
-    <div class="container">
+    <main>
       <header class="header">
-        <a href="#" class="menu-link">Works</a>
-        <a href="#" class="menu-link">Blog</a>
-        <a href="#" class="menu-link">Contact</a>
+        <a href="#" class="header__link">Works</a>
+        <a href="#" class="header__link">Blog</a>
+        <a href="#" class="header__link">Contact</a>
       </header>
       <div class="about">
-        <div class="summary">
-          <h3 class="title">Hi, I am Haris, <br>React Developer</h3>
-          <p class="description paragraph">
+        <div class="about__summary">
+          <h3 class="about__title">Hi, I am Haris, <br />React Developer</h3>
+          <p class="about__description">
             Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
             sint. Velit officia consequat duis enim velit mollit. Exercitation
             veniam consequat sunt nostrud amet.
           </p>
-          <button class="download">Download Resume</button>
+          <button class="about__download">Download Resume</button>
         </div>
-        <div class="profile-img">
-          <img src="./assets/me.png" alt="" class="custom-image" />
-        </div>
+        <img src="./assets/me.png" alt="" class="about__image" />
       </div>
       <div class="posts">
-        <div class="posts-intro">
-          <h4 class="subtitle">Recent posts</h4>
-          <a href="#" class="view-all">View all</a>
+        <div class="posts__intro">
+          <h4 class="posts__subtitle">Recent posts</h4>
+          <a href="#" class="posts__link">View all</a>
         </div>
-        <div class="post-grid">
-          <div class="post-left post">
-            <h3 class="post-title">Making a design system from scratch</h3>
-            <div class="post-meta">
-              <span class="date">12 Feb 2020</span>
-              <span class="vertical-row">|</span>
-              <span class="category">Design, Pattern</span>
+        <div class="posts__grid">
+          <div class="post__item">
+            <h3 class="posts__title">Making a design system from scratch</h3>
+            <div class="posts__meta">
+              <span class="posts__date">12 Feb 2020</span>
+              <span class="posts__vertical_row">|</span>
+              <span class="posts__category">Design, Pattern</span>
             </div>
-            <div class="post-excert">
-              <p class="paragraph">
+            <div class="posts__excert">
+              <p class="posts__paragraph">
                 Amet minim mollit non deserunt ullamco est sit aliqua dolor do
                 amet sint. Velit officia consequat duis enim velit mollit.
                 Exercitation veniam consequat sunt nostrud amet.
               </p>
             </div>
           </div>
-          <div class="post-right post">
-            <h3 class="post-title">Creating pixel perfect icons in Figma</h3>
-            <div class="post-meta">
-              <span class="date">12 Feb 2020</span>
-              <span class="vertical-row">|</span>
-              <span class="category">Figma, Icon Design</span>
+          <div class="post__item">
+            <h3 class="posts__title">Creating pixel perfect icons in Figma</h3>
+            <div class="posts__meta">
+              <span class="posts__date">12 Feb 2020</span>
+              <span class="posts__vertical_row">|</span>
+              <span class="posts__category">Figma, Icon Design</span>
             </div>
-            <div class="post-excert">
-              <p class="paragraph">
+            <div class="posts__excert">
+              <p class="posts__paragraph">
                 Amet minim mollit non deserunt ullamco est sit aliqua dolor do
                 amet sint. Velit officia consequat duis enim velit mollit.
                 Exercitation veniam consequat sunt nostrud amet.
@@ -71,21 +69,21 @@
         </div>
       </div>
       <div class="featured">
-        <div class="featured-intro">
-          <h4 class="subtitle">Featured works</h4>
-        </div>
-        <div class="featured-card-1 featured-card">
-          <div class="featured-card-img">
-            <img src="./assets/featured-1.png" alt="" class="rounded-corners" />
-          </div>
-          <div class="featured-card-content">
-            <h3 class="featured-card-title">Designing Dashboards</h3>
-            <div class="featured-card-meta">
-              <span class="year">2020</span>
-              <span class="featured-category">Dashboard</span>
+        <h4 class="featured__subtitle">Featured works</h4>
+        <div class="featured__card">
+          <img
+            src="./assets/featured-1.png"
+            alt=""
+            class="featured__card__img"
+          />
+          <div class="featured__card__content">
+            <h3 class="featured__card__title">Designing Dashboards</h3>
+            <div class="featured__card__meta">
+              <span class="featured__card__year">2020</span>
+              <span class="featured__category">Dashboard</span>
             </div>
-            <div class="featured-card-excer">
-              <p class="paragraph">
+            <div class="featured__card__excert">
+              <p>
                 Amet minim mollit non deserunt ullamco est sit aliqua dolor do
                 amet sint. Velit officia consequat duis enim velit mollit.
                 Exercitation veniam consequat sunt nostrud amet.
@@ -93,18 +91,20 @@
             </div>
           </div>
         </div>
-        <div class="featured-card-2 featured-card">
-          <div class="featured-card-img">
-            <img src="./assets/featured-2.png" alt="" class="rounded-corners" />
-          </div>
-          <div class="featured-card-content">
-            <h3 class="featured-card-title">Vibrant Portraits of 2020</h3>
-            <div class="featured-card-meta">
-              <span class="year">2020</span>
-              <span class="featured-category">Illustration</span>
+        <div class="featured__card__2 featured__card">
+          <img
+            src="./assets/featured-2.png"
+            alt=""
+            class="featured__card__img"
+          />
+          <div class="featured__card__content">
+            <h3 class="featured__card__title">Vibrant Portraits of 2020</h3>
+            <div class="featured__card__meta">
+              <span class="featured__card__year">2020</span>
+              <span class="featured__category">Illustration</span>
             </div>
-            <div class="featured-card-excer">
-              <p class="paragraph">
+            <div class="featured__card__excert">
+              <p>
                 Amet minim mollit non deserunt ullamco est sit aliqua dolor do
                 amet sint. Velit officia consequat duis enim velit mollit.
                 Exercitation veniam consequat sunt nostrud amet.
@@ -112,18 +112,20 @@
             </div>
           </div>
         </div>
-        <div class="featured-card-3 featured-card">
-          <div class="featured-card-img">
-            <img src="./assets/featured-3.png" alt="" class="rounded-corners" />
-          </div>
-          <div class="featured-card-content">
-            <h3 class="featured-card-title">36 Days of Malayalam type</h3>
-            <div class="featured-card-meta">
-              <span class="year">2020</span>
-              <span class="featured-category">Typography</span>
+        <div class="featured__card__3 featured__card">
+          <img
+            src="./assets/featured-3.png"
+            alt=""
+            class="featured__card__img"
+          />
+          <div class="featured__card__content">
+            <h3 class="featured__card__title">36 Days of Malayalam type</h3>
+            <div class="featured__card__meta">
+              <span class="featured__card__year">2020</span>
+              <span class="featured__category">Typography</span>
             </div>
-            <div class="featured-card-excer">
-              <p class="paragraph">
+            <div class="featured__card__excert">
+              <p>
                 Amet minim mollit non deserunt ullamco est sit aliqua dolor do
                 amet sint. Velit officia consequat duis enim velit mollit.
                 Exercitation veniam consequat sunt nostrud amet.
@@ -133,24 +135,22 @@
         </div>
       </div>
       <div class="footer">
-        <div class="social-bar">
-          <div class="social social-icon-1">
+        <div class="footer__social">
+          <div class="footer__social__icon">
             <i class="fab fa-facebook-f"></i>
           </div>
-          <div class="social social-icon-2">
+          <div class="footer__social__icon">
             <i class="fab fa-instagram"></i>
           </div>
-          <div class="social social-icon-3">
+          <div class="footer__social__icon">
             <i class="fab fa-twitter"></i>
           </div>
-          <div class="social social-icon-4">
+          <div class="footer__social__icon">
             <i class="fab fa-linkedin-in"></i>
           </div>
         </div>
-        <div class="copyright">
-          <p class="copyright-text">Copyright ©2020 All rights reserved</p>
-        </div>
+        <p class="footer__copyright">Copyright ©2020 All rights reserved</p>
       </div>
-    </div>
+    </main>
   </body>
 </html>
