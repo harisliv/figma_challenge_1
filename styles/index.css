@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap");
 html {
-  background-color: #b1b1b1;
+  background: #2289e2;
+  background: linear-gradient(277deg, #2289e2 0%, #7dc3ff 92%);
 }
 
 * {
@@ -21,7 +22,7 @@ main {
   -ms-grid-rows: 82px 513px 396px 787px 182px;
       grid-template-rows: 82px 513px 396px 787px 182px;
   width: 1152px;
-  margin: 30px auto;
+  margin: 70px auto;
   background-color: #fff;
 }
 
@@ -51,6 +52,10 @@ main > div {
   letter-spacing: 0px;
   text-decoration: none;
   margin-left: 25px;
+}
+
+.header .header__link:visited {
+  color: #21243d;
 }
 
 .about {
@@ -104,7 +109,7 @@ main > div {
 }
 
 .posts {
-  background-color: #EDF7FA;
+  background-color: #edf7fa;
 }
 
 .posts .posts__intro {

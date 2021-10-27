@@ -9,11 +9,15 @@
 }
 
 $white: #fff;
-
-
+$main-color-text: #21243d;
 
 html {
-  background-color: #b1b1b1;
+  background: rgb(34, 137, 226);
+  background: linear-gradient(
+    277deg,
+    rgba(34, 137, 226, 1) 0%,
+    rgba(125, 195, 255, 1) 92%
+  );
 }
 
 * {
@@ -24,14 +28,14 @@ html {
 
 body {
   font-family: "Heebo", sans-serif;
-  color: #21243d;
+  color: $main-color-text;
 }
 
 main {
   display: grid;
   grid-template-rows: 82px 513px 396px 787px 182px;
   width: 1152px;
-  margin: 30px auto;
+  margin: 70px auto;
   background-color: $white;
 }
 
@@ -49,6 +53,10 @@ main > div {
     @include setFontStyle(20, 500, 29);
     text-decoration: none;
     margin-left: 25px;
+
+    &:visited {
+      color: #21243d;
+    }
   }
 }
 
@@ -86,7 +94,7 @@ main > div {
 }
 
 .posts {
-  background-color: #EDF7FA;
+  background-color: #edf7fa;
 
   .posts__intro {
     display: flex;
