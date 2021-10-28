@@ -1,0 +1,9 @@
+@media (max-width: 500px) {
+  main {
+    width: 500px;
+  }
+  .header__mobile_menu {
+    display: block;
+  }
+}
+/*# sourceMappingURL=mobile.css.map */

@@ -58,6 +58,10 @@ main > div {
   color: #21243d;
 }
 
+.header .header__mobile_menu {
+  display: none;
+}
+
 .about {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -334,4 +338,4 @@ main > div {
       -ms-flex: 1 1 100%;
           flex: 1 1 100%;
 }
-/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=desktop.css.map */
