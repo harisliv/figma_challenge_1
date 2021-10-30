@@ -16,6 +16,10 @@ body {
   color: #21243d;
 }
 
+a {
+  color: #21243d;
+}
+
 main {
   display: -ms-grid;
   display: grid;

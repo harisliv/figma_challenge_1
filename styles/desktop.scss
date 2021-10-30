@@ -31,6 +31,10 @@ body {
   color: $main-color-text;
 }
 
+a {
+  color: $main-color-text;
+}
+
 main {
   display: grid;
   grid-template-rows: 82px 513px 396px 787px 182px;
